@@ -11,7 +11,7 @@
     --border-radius-small: 7px;
     --border-radius-large: 45px;
 
-    --shadow: 0 5px 0 0 var(--color-dark-alt);
+    --shadow: 0 5 0 0 var(--color-dark-alt);
 
     --font-family-base: 'Space Grotesk', sans-serif;
 
@@ -24,12 +24,4 @@
     --button-hight: 68px;
 
     --transition-duration: 0.2s;
-
-    @include desktop {
-        --section-padding-y: 50px;
-    }
-
-    @include mobile {
-        --section-padding-y: 30px;
-    }
 }
